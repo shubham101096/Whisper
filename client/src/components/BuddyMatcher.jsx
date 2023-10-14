@@ -11,7 +11,7 @@ import { useNotification } from 'src/lib/notification';
 import { useApp } from 'src/context/AppContext';
 import { createBrowserNotification } from 'src/lib/browserNotification';
 import { isExplicitDisconnection } from 'src/lib/utils';
-import { NEW_EVENT_ADDING, NEW_EVENT_CHAT_RESTORE, NEW_EVENT_CLOSE, NEW_EVENT_CREATE_ROOM, NEW_EVENT_INACTIVE, NEW_EVENT_JOIN, NEW_EVENT_JOINED, NEW_EVENT_STOP_SEARCH, NEW_EVENT_STOP_SEARCH_SUCCESS } from '../../../constants.json';
+import { NEW_EVENT_ADDING, NEW_EVENT_CHAT_RESTORE, NEW_EVENT_CLOSE, NEW_EVENT_CREATE_ROOM, NEW_EVENT_INACTIVE, NEW_EVENT_JOIN, NEW_EVENT_JOINED, NEW_EVENT_STOP_SEARCH, NEW_EVENT_STOP_SEARCH_SUCCESS } from '../../constants.json';
 
 const stoppingSearchLoadingText = <p>Stopping the search</p>;
 const BuddyMatcher = () => {
