@@ -1,4 +1,4 @@
-const { NEW_EVENT_JOIN, NEW_EVENT_JOINED, NEW_EVENT_CHAT_RESTORE } = require('../../constants.json');
+const { NEW_EVENT_JOIN, NEW_EVENT_JOINED, NEW_EVENT_CHAT_RESTORE } = require('../constants.json');
 const {
 	isUserActive,
 	addToWaitingList,
